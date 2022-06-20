@@ -13,10 +13,6 @@ export const UncontrolledInput = () => {
     }}/>---{value}---</>
 }
 
-
-export const ControlledInput = () => <input value={"controlled input"}/>
-
-
 export const GetValueOfUncInputByButtonPress = () => {
     const [value, setValue] = useState('')
     const inputRef = useRef<HTMLInputElement>(null)

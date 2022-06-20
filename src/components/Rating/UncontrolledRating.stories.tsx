@@ -1,7 +1,5 @@
 import React, {useState} from "react";
 import {UncontrolledRating} from "./UncontrolledRating";
-import {Rating} from "./Rating";
-
 
 export default {
     title: 'UncontrolledRating stories',
