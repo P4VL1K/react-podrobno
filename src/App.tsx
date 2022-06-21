@@ -21,7 +21,7 @@ function App(props: any) {
             {/*<UncontrolledAccordion titleValue={"Menu"}/>*/}
 
 
-            <Accordion titleValue={"Menu"} collapsed={accordionCollapsed} setAccordionCollapsed={setAccordionCollapsed}/>
+            {/*<Accordion titleValue={"Menu"} collapsed={accordionCollapsed} setAccordionCollapsed={setAccordionCollapsed}/>*/}
             <UncontrolledRating/>
             <Rating value={ratingValue} onClick={setRatingValue}/>
         </div>
